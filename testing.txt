@@ -1,0 +1,31 @@
+Testing 
+
+Testing code 
+
+command
+cd "C:\Users\kayar\Desktop"
+
+command
+python project2.py
+
+output
+WARNING:  You must pass the application as an import string to enable 'reload' or 'workers'.
+
+command
+uvicorn project2:app --host 0.0.0.0 --port 8080 --reload
+
+In 2nd command prompt 
+
+command
+cd "C:\Users\kayar\Desktop"
+
+command
+.\gradebot.exe project2 
+
+Using Test Cases
+
+command
+cd "C:\Users\kayar\Desktop"
+
+command
+pytest -cov
