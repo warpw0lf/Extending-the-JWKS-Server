@@ -14,7 +14,7 @@ pip install pytest pytest-cov fastapi uvicorn cryptography sqlite3 jwt pyjwt
 
 ## 2. Start the Application
 
-Open your terminal and navigate to the project directory:
+Open your terminal and navigate to the project directory and use the commands:
 
 ```bash
 
@@ -26,13 +26,26 @@ uvicorn project2:app --host 0.0.0.0 --port 8080 --reload
 
 ```
 
-## 3. In another terminal navigate to the project directory with gradebot.exe in it:
+## 3. Gradebot Use
+
+In another terminal navigate to the project directory with gradebot.exe in it and use the commands:
 
 ```bash
 
 cd "your_directory"
 
 .\gradebot.exe project2
+
+```
+## 4. Using the Test Cases
+
+While running the server in another command prompt or the same one you used to run the gradebot use the command:
+
+```bash
+
+cd "your_directory"
+
+pytest -cov
 
 ```
 
