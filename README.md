@@ -10,7 +10,8 @@ Download Python 3 from Python's official site and add it to PATH. Then, go into 
 
 pip install pytest pytest-cov fastapi uvicorn cryptography sqlite3 jwt pyjwt
 
-```  
+```
+I also have a venv file and a requirements.txt if you would like to use them, but as I have never used venv before, I am unsure if I did it correctly.
 
 ## 2. Start the Application
 
